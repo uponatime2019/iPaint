@@ -1,0 +1,74 @@
+# ── Build output ────────────────────────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+publish_out/
+publish/
+artifacts/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+*.dll
+*.exe
+*.pdb
+*.pri
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.appinstaller
+*.msixupload
+*.publishsettings
+
+# ── Visual Studio / VS Code ──────────────────────────────────────
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.dbmdl
+*.jfm
+
+# ── NuGet / MSBuild ──────────────────────────────────────────────
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts.lock.json
+[Bb]uild[Ll]og.*
+msbuild.log
+msbuild.binlog
+*.binlog
+
+# ── OS / editor cruft ────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ── Test / coverage output ───────────────────────────────────────
+[Tt]est[Rr]esult*/
+[Bb]uild[Aa]rtifacts/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# ── Logs / local app data ────────────────────────────────────────
+*.log
+logs/
+
+# ── Secrets / machine-local config ───────────────────────────────
+*.env
+.env.*
+appsettings.Local.json
+secrets.json
